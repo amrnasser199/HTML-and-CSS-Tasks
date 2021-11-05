@@ -1,0 +1,16 @@
+div
+{
+  background-color: #eee;
+margin: auto;
+width: 100px;
+height: 100px;
+padding: 30px;
+border-radius: 50%;
+font-weight:bold ;
+font-size: 30px;
+color: orangered;
+box-shadow: 10px 0px 0px 0px orangered, -10px 0px 0px 0px #00bcd4;
+display: flex;
+justify-content: center;
+align-items: center;
+}

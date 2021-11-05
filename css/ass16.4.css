@@ -1,0 +1,46 @@
+:root
+{
+  --maincolor:blueviolet;
+  --main:black;
+}
+  div {
+    width: 150px;
+    height: 56px;
+    box-sizing: content-box;
+    padding-top: 25px;
+    position: relative;
+    background: var(--maincolor);
+    color: white;
+    font-size: 25px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+    MARGIN: 25% auto;
+    background: var(--maincolor);
+    border: 5px solid ;
+    border-color: transparent transparent black transparent;
+  }
+    
+    div:before {
+      content: '';
+      position: absolute;
+      top: -88px;
+      left: 44px;
+      height: 117%;
+      width: 50%;
+      background: var(--main);
+      z-index: 2;
+      transform: rotate( 45deg );
+  }
+  
+  body::after
+{
+  content: "";
+  position: absolute;
+  left: 477px;
+  top: 273px;
+  width: 4%;
+  border-top: 19px solid white;
+  border-left: 55px solid transparent;
+  border-right: 55px solid transparent;
+}

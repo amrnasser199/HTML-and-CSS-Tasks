@@ -1,0 +1,38 @@
+
+.a{
+  text-align: center;
+  padding: 40px;
+  border: 5px solid red ;
+  
+}
+.a p{
+  background-color: #dfdfdf; 
+  padding: inherit;
+  border: inherit;
+}
+
+.b{
+  text-align: center;
+  padding: 40px;
+  border: 5px solid green ;
+  
+}
+.b p{
+  background-color: #dfdfdf; 
+  padding: inherit;
+  border: inherit;
+}
+.c{
+font-style: italic;
+font-weight: 300;
+font-family: 'Open Sans', sans-serif;
+}
+.d
+{
+  font-weight: 700;
+  font-family: 'Cairo', sans-serif;
+}
+.e{
+  font-weight: 400;
+  font-family: 'Jomhuria', cursive;
+}

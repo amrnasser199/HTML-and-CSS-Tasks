@@ -1,0 +1,28 @@
+.assign-1-shape-1 {
+  background-color: #DDD;
+  border: 5px solid red;
+  outline: 5px solid black;
+  /* we can dont make it  */
+  padding:5px;
+  margin: 5px;
+}
+.assign-1-shape-2
+{
+  background-color: #DDD;
+  border-width: 5px;
+  border-style: solid;
+  border-color:  blue green ;
+  outline: 5px solid black;
+  padding:5px;
+  margin: 5px;
+}
+.assign-1-shape-3
+{
+  background-color: #DDD;
+  border-width: 5px;
+  border-style: dashed;
+  border-color:  red green blue yellow ;
+  outline: 5px solid black;
+  padding:5px;
+  margin: 5px;
+}

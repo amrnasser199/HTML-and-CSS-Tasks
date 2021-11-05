@@ -1,0 +1,39 @@
+.a
+{background-color:indianred ;
+  color: aliceblue;
+  max-width: 400px;
+ width: fit-content;
+  height: 35px;
+  padding: 5px;
+  margin: 5px;
+}
+.b
+{background-color:indianred ;
+  color: aliceblue;
+  max-width: 400px;
+  width: fit-content;
+  height: 35px;
+  padding:5px;
+  margin:5px;
+
+}
+.c
+{background-color:indianred ;
+  color: aliceblue;  
+  max-width: 400px;
+  width: fit-content;
+  height: 35px;
+  padding: 5px;
+  margin: 5px;
+}
+.d
+{
+  color: aliceblue;
+  background-color:indianred ;
+  max-width: 400px;
+  width: fit-content;
+  height: 35px;
+  padding: 5px;
+  margin: 5px;
+  overflow: hidden;
+}

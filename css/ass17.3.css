@@ -1,0 +1,24 @@
+div
+{
+  background-color: transparent;
+  margin:  25% auto;
+  color: black; 
+  width: 50px;
+  height: 50px; 
+  border-radius: 50%; 
+  position: relative;
+  border: 10px solid;
+  border-color: black black transparent black;
+  animation: col 1s linear 2s infinite ;
+
+}
+@keyframes col {
+  0%
+  {
+    transform: rotate(0deg);
+  }
+  100%
+  {
+    transform: rotate(360deg);
+  }
+}

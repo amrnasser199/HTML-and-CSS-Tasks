@@ -1,0 +1,15 @@
+.one{
+  background-color: #dfdfdf;
+  color: black;
+  text-transform: uppercase;
+}
+.two{
+  background-color: #dfdfdf;
+  color: black;
+  text-transform: capitalize;
+}
+.three{
+  background-color: #dfdfdf;
+  color: black;
+  text-transform: lowercase;
+}

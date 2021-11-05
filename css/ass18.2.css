@@ -1,0 +1,5 @@
+.child +.child
+/* .child ~.child */
+{
+    color: red;
+}

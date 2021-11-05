@@ -1,0 +1,37 @@
+:root
+{
+  --main-color:rgb(136, 136, 218);
+--main :white;
+}
+  div
+{
+  background-color: var(--main-color);
+  margin:  40px auto;
+  color: var(--main); 
+  width: 400px;
+  height: 200px; 
+  font-weight: bold;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div::before
+{    content:"" ;
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  left: 0;
+  background-color: var(--main);
+  transform: rotate(350deg)translate(0px, 31px) scale(1.1);
+}
+div::after
+{content: "";
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  left: 25%;
+  background-color: var(--main);
+  transform: rotate(440deg)translate(-3px, 8px) scale(0.55,0.1);
+}

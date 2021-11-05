@@ -1,0 +1,36 @@
+*
+{
+  box-sizing: border-box;
+}
+.parent
+{
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  padding: 15px;
+  background-color: #eee;
+  display: flex;
+  flex-flow: row wrap ;
+
+}
+.parent div
+{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background-color: red;
+  padding: 20px;
+  width:  calc(94%/3);
+  margin-left: 1%;
+  margin-right: 1%;
+
+}
+
+.three
+{
+  align-self: flex-start;
+}
+.one
+{
+  align-self: flex-end;
+}

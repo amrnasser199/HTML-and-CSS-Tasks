@@ -1,0 +1,55 @@
+div
+{
+  background-color: #ededed;
+  text-align: center;
+  width: 800px;
+}
+
+.f 
+{  
+background-color: #dfdfdf;
+margin: 15px;
+width: calc(100% - 30px );
+float: left;
+}
+.t div
+{  
+  background-color: #dfdfdf;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  width: calc((100% - 60px) / 3 );
+  float: left;
+
+}
+/* .clear1 {
+  clear: both;
+} */
+.half div
+{ 
+   margin-left: 15px;
+  margin-bottom: 15px;
+  background-color: #dfdfdf;
+  width: calc((100% - 45px) / 2 );
+  float: left;
+
+} 
+/* .clear2 {
+  clear: both;
+} */
+.quarter div
+{  
+  margin-left: 15px;
+  margin-bottom: 15px;
+  background-color: #dfdfdf;
+  width: calc((100% - 75px) / 4 );
+  float: left;
+
+}
+p
+{
+  clear: both;
+}
+/* we can do it rather than p  */
+/* .clear3 {
+  clear: both;
+} */

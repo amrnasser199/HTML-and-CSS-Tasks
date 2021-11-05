@@ -1,0 +1,170 @@
+:root
+{
+  --mainColor: grey;
+  --main-padding:10px;
+  --main-margin:10px;
+}
+html,body
+{
+  height: 100%;
+}
+.page
+{
+  background-color: #EEe;
+  display: flex;
+  flex-flow: column wrap;
+  height: 98%;
+  
+}
+.header
+{
+  width: calc(200%/2);
+  display: flex;
+  flex-flow: row wrap;
+}
+.logo
+{
+  background-color: var(--mainColor);
+  margin: var(--main-margin);
+  padding: var(--main-padding);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 5%;
+}
+.links
+{
+  background-color: var(--mainColor);
+  padding: var(--main-padding);
+  margin: var(--main-margin);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type:none;
+  flex: 80%;
+}
+li
+{
+  margin: 5px;
+}
+.main-area
+{
+  width: calc(200%/2);
+  display: flex;
+  flex-flow: row wrap;
+  height: 78%;
+}
+.content
+{
+  background-color: var(--mainColor);
+  margin: var(--main-margin);
+  padding: var(--main-padding);
+  display: flex;
+  justify-content: flex-start;
+  flex:70%;
+}
+
+.sidebar
+{
+  background-color: var(--mainColor);
+  margin: var(--main-margin);
+  padding: var(--main-padding);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex:20% ;
+}
+.footer
+{
+  width: calc(196%/2);
+  display: flex;
+  flex-flow: row wrap;
+  margin: var(--main-margin);
+}
+.copyright
+{
+  background-color: var(--mainColor);
+  padding: var(--main-padding);
+  flex: 0%;
+
+}
+.design
+{ background-color: var(--mainColor);
+  padding: var(--main-padding);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *
+{
+  box-sizing: border-box;
+}
+.parent
+{
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  padding: 15px;
+  background-color: #eee;
+  display: flex;
+  flex-flow: row wrap ;
+  justify-content: space-between;
+}
+.parent div
+{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(0, 71, 83);
+  padding: 30px;
+ 
+  margin-left: 1%;
+  justify-content: space-between;
+}
+.one
+{
+  align-self: flex-start;
+  height: 50%;
+
+}
+.two
+{
+  align-self: flex-end;
+  height: 50%;
+
+}
+.three
+{
+align-self: flex-start;
+height: 50%;
+}
+.four
+{
+  align-self: flex-end;
+  height: 50%;
+}
+
+.one,.two,.three,.four
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */

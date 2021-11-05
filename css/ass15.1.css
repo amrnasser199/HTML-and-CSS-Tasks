@@ -1,0 +1,38 @@
+div
+{
+  background-color: red;
+  margin:  40px auto;
+  color: transparent; 
+  width: 400px;
+  height: 200px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+transform: rotate(189deg);
+}
+
+div::before
+{content: "";
+  width: 400px;
+  height: 200px; 
+  position: absolute;
+  left: 0;
+background-color: blue;
+transform: rotate(345deg);
+}
+div::after
+{
+   content: "elzero";
+  width: 400px;
+  height: 200px; 
+position:absolute ;
+left: 0px;
+background-color: #ddd;
+color: blue;
+transform: rotate(171deg);
+display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-weight: bold;
+  font-size: 40px;
+}

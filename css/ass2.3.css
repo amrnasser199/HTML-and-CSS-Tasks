@@ -1,0 +1,31 @@
+.assign-1-shape-1
+{
+    background-image: url(css.png);
+     width: 400px;
+     height: 400px;
+    background-repeat: no-repeat;
+  }
+  .assign-1-shape-2
+  {
+      
+    background-image: url(css.png);
+    width: 400px;
+    height: 400px;
+   background-repeat: repeat-y;
+   background-position:right;
+  }
+  .assign-1-shape-3
+  {
+    background-image: url(css.png);
+    width: 400px;
+    height: 400px;
+   background-repeat: repeat-x;
+   background-position: bottom;
+  }
+  .assign-1-shape-4
+  {
+    background-image: url(css.png);
+    width: 400px;
+    height: 400px;
+   background-repeat: repeat;
+   }

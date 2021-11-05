@@ -1,0 +1,62 @@
+div
+{
+  background-color: transparent;
+  margin:  25% auto;
+  width: 50px;
+  height: 50px; 
+  border-radius: 50%; 
+  position: relative;
+  border: 10px solid;
+  border-color: transparent red red red;
+  animation-name: col;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform: rotate( 45deg );
+}
+@keyframes col {
+  0%
+  {
+    transform: rotate(0deg);
+  }
+  100%
+  {
+    transform: rotate(360deg);
+  }
+}
+div::before
+{ 
+  content: "";
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+background-color: transparent;
+  left: 0;
+  top: 0;
+  transform: translate(-21px, -20px);
+  z-index: -1;
+  border: 10px solid;
+  border-color: blue blue transparent blue;
+}
+body ::after
+{
+  content: "";
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-33px, -33px);
+  z-index: -8;
+  border: 12px solid;
+  background: transparent;
+  border-color: yellow yellow yellow transparent;
+}
+
+div:hover
+{
+  animation-name: col;
+  animation-play-state: paused;
+}

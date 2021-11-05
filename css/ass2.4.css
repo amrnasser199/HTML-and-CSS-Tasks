@@ -1,0 +1,35 @@
+.assign-1-shape-1
+{
+    background-image: url(css.png);
+     width: 400px;
+     height: 400px;
+    background-repeat: repeat;
+    margin-right: 20%;
+    margin-bottom: 20%;
+  }
+  .assign-1-shape-2
+  {
+      
+    background-image: url(css.png);
+    width: 400px;
+    height: 400px;
+   background-repeat: repeat-y;
+  margin-left: 8%;
+  }
+      .assign-1-shape-3
+  {
+    background-image: url(css.png);
+    width: 400px;
+    height: 400px;
+   background-repeat: repeat;
+   margin-top: 8%;
+  }
+  .assign-1-shape-4
+  {
+    background-image: url(css.png);
+    width: 400px;
+    height: 400px;
+   background-repeat: repeat;
+   margin-top: 50%;
+    margin-left: 50%;
+   }

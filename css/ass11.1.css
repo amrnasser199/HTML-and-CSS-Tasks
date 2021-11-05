@@ -1,0 +1,32 @@
+.parent
+{
+  background-color: rgb(221, 212, 212);
+  width: 500px;
+  height: 100px;
+  margin:50px auto auto auto;
+  transition-duration: 1s;
+  transition-property: all;
+  transition-timing-function:linear;
+  text-align: center;
+}
+.parent:hover
+{
+margin-top: 0px;
+}
+.son
+{
+  background-color: rgb(128, 125, 125);
+  width: 400px;
+  height: 20px;
+  margin: auto auto auto;
+  padding: 10px;
+  transition-duration: 0s;
+  transition-delay: 0.5s;
+  transition-property: all;
+  transition-timing-function:linear;
+  text-align: center;
+}
+.son:hover
+{
+  margin-top: 20px;
+}

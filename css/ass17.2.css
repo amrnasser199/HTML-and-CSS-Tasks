@@ -1,0 +1,93 @@
+div
+{
+  background-color: transparent;
+  margin:  25% auto;
+  color: black; 
+  width: 50px;
+  height: 50px; 
+  border-radius: 50%; 
+  position: relative;
+  border: 10px solid;
+  border-color: blue blue transparent blue;
+  animation-name: col;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+  animation-play-state: paused;
+
+}
+@keyframes col {
+  0%
+  {
+    transform: rotate(0deg);
+  }
+  100%
+  {
+    transform: rotate(360deg);
+  }
+}
+div::before
+{ 
+  content: "";
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+background-color: transparent;
+  left: 0;
+  top: 0;
+  transform: translate(-21px, -20px);
+  z-index: -1;
+  border: 10px solid;
+  border-color: black black transparent black;
+  animation-name: ide;
+  animation-iteration-count: 1.75;
+
+  animation-duration: 2s;
+  animation-play-state: paused;
+
+}
+@keyframes ide {
+  0%
+  {
+    transform:translate(-21px, -20px) rotate(0deg);
+  }
+  100%
+  {
+    transform:translate(-21px, -20px) rotate(360deg);
+  }
+}
+body ::after
+{
+  content: "";
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-33px, -33px);
+  z-index: -8;
+  border: 12px solid;
+  background: transparent;
+  border-color: yellow yellow transparent yellow;
+  animation-name: cc;
+  animation-iteration-count: 1;
+
+  animation-duration: 2s;
+  animation-play-state: paused;
+
+}
+@keyframes cc
+{ 0%
+  {
+    transform:translate(-33px, -33px) rotate(0deg);
+  }
+  100%
+  {
+    transform:translate(-33px, -33px) rotate(360deg);
+  }
+}
+div:hover
+{
+animation-play-state: running;
+}

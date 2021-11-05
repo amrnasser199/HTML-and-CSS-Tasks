@@ -1,0 +1,4 @@
+body>[title~=Elzero]:nth-of-type(3),[title~=Hello],[title~=HTML]
+{
+    color: red;
+}

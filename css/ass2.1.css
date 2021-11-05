@@ -1,0 +1,32 @@
+/* -------------------------------------ass1---------------------------------------- */
+  .assign-1-shape-1
+{
+    background-color: blueviolet;
+    background-color: rgb(138, 43, 226);
+    background-color: #8a2be2;
+  width: 500px;
+  padding: 20px;
+  margin: auto;
+
+  }
+  .assign-1-shape-2
+  {
+      background-color: rgb(138 43 226 /50%);
+     /* ممكن نعمل الشفافية بال opacity
+    background-color: rgb(138, 43, 226);
+     opacity: 50%; */
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+   
+  }
+  .assign-1-shape-3
+  {
+    background-color:rgb(137 43 226 /0.1);
+    /* ممكن نعمل الشفافية بال opacity
+    background-color: rgb(138, 43, 226);
+     opacity: 0.1; */
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+  }

@@ -1,0 +1,42 @@
+*
+{
+  box-sizing: border-box;
+}
+.parent
+{
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  padding: 15px;
+  background-color: #eee;
+  display: flex;
+  flex-flow: column nowrap ;
+
+}
+.parent div
+{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(0, 71, 83);
+  padding: 10px;
+  height:  calc(96%/3);
+  margin-top: 1%;
+
+}
+
+.one,.three
+{
+  align-self: flex-end;
+}
+.two
+{
+  align-self: flex-start;
+  width: 300px;
+}
+.one,.two,.three
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
